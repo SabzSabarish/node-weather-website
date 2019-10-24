@@ -1,11 +1,15 @@
+@font-face {
+	font-family: 'Poppins-Medium';
+	src: url("../fonts/Poppins-Medium.ttf") format('truetype');
+}
+
+
 body {
     background-image: url("../img/weather.jpg");
-    
-    font-family: arial;
+    font-family: 'Poppins-Medium';
     max-width: 650px;
     margin: 0 auto;
     padding: 0 16px;
-
     display: flex;
     flex-direction: column;
     min-height: 100vh
@@ -21,14 +25,19 @@ footer {
     margin-top: 16px;
     padding: 16px 0;
 }
+footer .author{
+    color:#B7CBEC;
+    font-size:14px;
+    font-style: italic;
+}
 header {
     margin-top: 16px;
     margin-bottom: 48px;
 }
 
 h1 {
-    font-size: 64px;
-    margin-bottom: 16p;
+    Font-size:64px;
+    margin-bottom: 16px;
     color:#B7CBEC;
 }
 a{
@@ -61,8 +70,6 @@ input {
 p{
     color:#FFF;
     font-size: 18px;
-    
-    
 }
 .btn {
     padding: 8px;
