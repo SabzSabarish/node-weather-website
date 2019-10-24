@@ -1,5 +1,6 @@
 body {
     background-image: url("../img/weather.jpg");
+    
     font-family: arial;
     max-width: 650px;
     margin: 0 auto;
@@ -15,12 +16,11 @@ body {
 }
 
 footer {
-    color: #888888;
-    border-top: 1px solid #eeeeee;
+    
+    border-top: 1px solid #B7CBEC;
     margin-top: 16px;
     padding: 16px 0;
 }
-
 header {
     margin-top: 16px;
     margin-bottom: 48px;
@@ -28,15 +28,15 @@ header {
 
 h1 {
     font-size: 64px;
-    margin-bottom: 16px;
-    color:honeydew;
+    margin-bottom: 16p;
+    color:#B7CBEC;
 }
 a{
     text-decoration:none ;
     color:#FFF;
 }
  header a {
-    color: #007ACC;
+    color: #4381CC;
     margin-right: 16px;
     text-decoration: none;
 }
@@ -53,23 +53,28 @@ input {
     padding: 8px;
 }
 .span{
-    color:goldenrod;
+    color:#B7CBEC;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
 }
 p{
-    color:navajowhite;
-    font-style: italic;
+    color:#FFF;
+    font-size: 18px;
+    
+    
 }
 .btn {
     padding: 8px;
     cursor: pointer;
-    color: white;
-    background: #007ACC;
-    border:1px solid #007ACC;
+    color: #B7CBEC;
+    background: #233D6E;
+    border:1px solid #233D6E;
 }
 
 .btn:hover {
-    color:#000;
-    background: #FFF;
-    border:1px solid #FFF;
+    color:#FFF;
+    background: #4381CC;
+    border:1px solid #4381CC;
     transition:0.5s;
 }
